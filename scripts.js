@@ -20,3 +20,6 @@ function dropdown() {
         nav.style.height = '75px';
     }
 }
+
+widthCheck();
+// dropdown();
