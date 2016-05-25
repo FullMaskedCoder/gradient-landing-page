@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,700|Lato:400,700);
-
 html {
     box-sizing: border-box;
     padding: 0;
@@ -8,14 +7,12 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
 main {
     color: white;
     height: 100%;
     width: 100%;
     font-family: 'Lato', sans-serif;
 }
-
 nav {
     height: 75px;
     width: 100%;
@@ -27,7 +24,6 @@ nav {
     justify-content: flex-end;
     align-items: center;
 }
-
 nav div {
     margin-right: 15px;
     margin-left: 20px;
@@ -36,36 +32,32 @@ nav div {
     transition: .2s;
     cursor: pointer;
 }
-
 nav div:hover {
     transform: scale(1.1, 1.1);
 }
-
 #hamburger {
     height: 50px;
     width: 50px;
     display: none;
 }
-
 #navLogo {
     margin-right: auto;
     margin-left: 15px;
     font-size: 35px;
     font-weight: 700;
 }
-
 header {
     width: 100%;
     min-height: 700px;
     height: 100vh;
-    background: #0E72E2; /* For browsers that do not support gradients */
+    background: #0E72E2;
+    /* For browsers that do not support gradients */
     background: linear-gradient(to bottom right, #0E72E2, #BF71DA);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-
 header p {
     font-size: 125px;
     font-weight: 700;
@@ -83,21 +75,17 @@ header p {
     cursor: pointer;
     transition: .2s;
 }
-
 .round-button:hover {
     transform: scale(1.1, 1.1);
 }
-
 @media (max-width: 768px) {
     header p {
         font-size: 20vw;
     }
-
     header {
         height: 100vh;
         min-height: 100vh;
     }
-
     #hamburger {
         display: block;
         order: -1;
@@ -105,7 +93,6 @@ header p {
         margin-bottom: -48px;
         margin-top: 12px;
     }
-
     nav {
         flex-direction: column;
         flex-direction: column;
@@ -114,13 +101,10 @@ header p {
         overflow: hidden;
         transition: .5s;
     }
-
     nav div {
         margin-bottom: 15px;
     }
-
     #navLogo {
         margin-bottom: 20px;
     }
-
 }
